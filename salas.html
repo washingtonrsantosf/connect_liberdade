@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salas e Espaços | Connect Liberdade</title>
+
+    <!-- CSS exclusivo da página Salas -->
+    <link rel="stylesheet" href="salas.css">
+
+    <!-- Fontes utilizadas no site -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Playfair+Display:wght@500&display=swap"
+        rel="stylesheet">
+
+    <!-- Ícone da aba -->
+    <link rel="shortcut icon" href="img/favicon.ico.png" type="image/x-icon">
+</head>
+
+<body class="internal-page">
+    <!-- CABEÇALHO -->
+    <header class="header">
+        <div class="container navbar">
+            <div class="brand">
+                <a href="index.html" aria-label="Voltar para a página inicial">
+                    <img src="img/logo_preta.png" class="logo-top" alt="Connect Liberdade">
+                </a>
+            </div>
+            <nav aria-label="Navegação principal">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="espaco.html" class="nav-link">Espaço</a></li>
+                    <li><a href="salas.html" class="nav-link active">Salas de Reunião</a></li>
+                    <li><a href="https://wa.me/5511933158037" class="nav-link">Planos & Preços</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- APRESENTAÇÃO DA PÁGINA -->
+    <section class="rooms-hero">
+        <div class="container rooms-hero-content">
+            <span class="hero-tagline">Escolha o ambiente ideal</span>
+            <h1 class="internal-title">Nossas Salas</h1>
+            <p class="internal-description">
+                Encontre o ambiente mais adequado para reuniões profissionais, atendimentos individuais ou treinamentos.
+                Escolha uma categoria abaixo para conhecer melhor cada espaço.
+            </p>
+        </div>
+    </section>
+    <!--  MENU DE CATEGORIAS -->
+    <section class="room-options-section">
+        <div class="container">
+            <h2 class="section-title dark-text">Qual espaço você procura?</h2>
+            <p class="section-subtitle dark-muted">Clique em uma opção para ir diretamente até os detalhes.</p>
+            <div class="room-options-grid">
+                <!-- Opção 1: Sala de Reunião -->
+                <a href="#reuniao" class="room-option-card">
+                    <div class="room-option-image" style="background-image: url('img/14/sala_reuniao.jpg');"></div>
+                    <div class="room-option-content">
+                        <h3>Sala de Reunião</h3>
+                        <p>Ambiente executivo para encontros, apresentações e decisões estratégicas.</p>
+                        <strong>Conhecer espaço →</strong>
+                    </div>
+                </a>
+                <!-- Opção 2: Consultórios -->
+                <a href="#consultorios" class="room-option-card">
+                    <div class="room-option-image" style="background-image: url('img/14/consultorio1.jpg');"></div>
+                    <div class="room-option-content">
+                        <h3>Consultórios</h3>
+                        <p>Espaços reservados e confortáveis para atendimentos profissionais.</p>
+                        <strong>Conhecer espaço →</strong>
+                    </div>
+                </a>
+                <!-- Opção 3: Sala de Treinamento -->
+                <a href="#treinamento" class="room-option-card">
+                    <div class="room-option-image" style="background-image: url('img/4/sala_treinamento.jpg');"></div>
+                    <div class="room-option-content">
+                        <h3>Sala de Treinamento</h3>
+                        <p>Estrutura preparada para cursos, workshops, palestras e equipes.</p>
+                        <strong>Conhecer espaço →</strong>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- SALA DE REUNIÃO -->
+    <section id="reuniao" class="room-detail-section dark-room-section">
+        <div class="container room-detail-grid">
+            <div class="room-detail-image room-carousel" aria-label="Fotos da Sala de Reunião">
+                <div class="room-carousel-track">
+                    <img src="img/14/Reunião.jpg" alt="Sala de Reunião">
+                    <img src="img/14/sala_reuniao.jpg" alt="Sala de Reunião">
+                </div>
+                <button class="room-carousel-arrow room-carousel-prev" type="button"
+                    aria-label="Foto anterior">&#10094;</button>
+                <button class="room-carousel-arrow room-carousel-next" type="button"
+                    aria-label="Próxima foto">&#10095;</button>
+            </div>
+            <div class="room-detail-content">
+                <h2>Sala de Reunião</h2>
+                <p>
+                    Sala climatizada e pensada para reuniões de negócios, apresentações e decisões estratégicas. O
+                    ambiente oferece privacidade, conforto e uma imagem profissional para receber clientes, parceiros e
+                    equipes.
+                </p>
+                <div class="room-features">
+                    <span>Wi-Fi</span>
+                    <span>Climatização</span>
+                    <span>Privacidade</span>
+                    <span>Videoconferência</span>
+                </div>
+                <a href="https://wa.me/5511933158037" class="btn btn-red">Solicitar Orçamento</a>
+            </div>
+        </div>
+    </section>
+    <!-- CONSULTÓRIOS -->
+    <section id="consultorios" class="room-detail-section light-room-section">
+        <div class="container room-detail-grid room-detail-reverse">
+            <div class="room-detail-image room-carousel" aria-label="Fotos dos Consultórios">
+                <div class="room-carousel-track">
+                    <img src="img/14/consultório4.jpg" alt="Consultório">
+                    <img src="img/14/espera_consultório.jpg" alt="Sala de Reunião">
+                    <img src="img/14/consultório2.jpg" alt="Sala de Reunião">
+                    <img src="img/14/consultorio1.jpg" alt="Sala de Reunião">
+                    <img src="img/14/consultório3.jpg" alt="Sala de Reunião">
+                </div>
+                <button class="room-carousel-arrow room-carousel-prev" type="button"
+                    aria-label="Foto anterior">&#10094;</button>
+                <button class="room-carousel-arrow room-carousel-next" type="button"
+                    aria-label="Próxima foto">&#10095;</button>
+            </div>
+            <div class="room-detail-content">
+                <h2>Consultórios</h2>
+                <p>
+                    Ambientes organizados, reservados e confortáveis para atendimentos profissionais de baixa
+                    complexidade, consultas, psicoterapia, avaliações e outras atividades que exigem tranquilidade e
+                    discrição.
+                </p>
+                <div class="room-features">
+                    <span>Ambiente Reservado</span>
+                    <span>Climatização</span>
+                    <span>Conforto</span>
+                    <span>Atendimento Profissional</span>
+                </div>
+                <a href="https://wa.me/5511933158037" class="btn btn-red">Solicitar Orçamento</a>
+            </div>
+        </div>
+    </section>
+    <!-- SALA DE TREINAMENTO -->
+    <section id="treinamento" class="room-detail-section dark-room-section">
+        <div class="container room-detail-grid">
+            <div class="room-detail-image room-carousel" aria-label="Fotos da Sala de Treinamento">
+                <div class="room-carousel-track">
+                    <img src="img/4/sala_treinamento.jpg" alt="Sala de Treinamento">
+                    <img src="img/4/sala_treinamento2.jpg" alt="Sala de Reunião">
+                    <img src="img/4/sala_treinamento3.jpg" alt="Sala de Reunião">
+                </div>
+                <button class="room-carousel-arrow room-carousel-prev" type="button"
+                    aria-label="Foto anterior">&#10094;</button>
+                <button class="room-carousel-arrow room-carousel-next" type="button"
+                    aria-label="Próxima foto">&#10095;</button>
+            </div>
+            <div class="room-detail-content">
+                <h2>Sala de Treinamento</h2>
+                <p>
+                    Espaço preparado para cursos, workshops, palestras, dinâmicas e treinamentos corporativos. Uma
+                    estrutura profissional para reunir equipes em um ambiente moderno, confortável e adequado à
+                    produtividade.
+                </p>
+                <div class="room-features">
+                    <span>Wi-Fi</span>
+                    <span>Climatização</span>
+                    <span>Treinamentos</span>
+                    <span>Eventos Corporativos</span>
+                </div>
+                <a href="https://wa.me/5511933158037" class="btn btn-red">Solicitar Orçamento</a>
+            </div>
+        </div>
+    </section>
+    <!-- CHAMADA PARA RESERVA -->
+    <section id="reserva" class="internal-cta">
+        <div class="container">
+            <h2>Pronto para reservar seu espaço?</h2>
+            <p>Escolha o ambiente ideal e entre em contato para consultar disponibilidade e valores.</p>
+            <a href="https://wa.me/5511933158037" class="btn btn-red">Solicite um Orçamento</a>
+        </div>
+    </section>
+    <!-- RODAPÉ -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-main">
+                <div class="footer-brand-block">
+                    <a href="index.html" class="footer-logo-link" aria-label="Página inicial da Connect Liberdade">
+                        <img src="img/logo_preta.png" class="footer-logo" alt="Connect Liberdade">
+                    </a>
+                    <p class="footer-description">Espaços profissionais, confortáveis, preparados para reuniões,
+                        atendimentos, treinamentos e negócios.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Navegação</h3>
+                    <a href="index.html">Home</a>
+                    <a href="espaco.html">Espaço</a>
+                    <a href="salas.html">Salas de Reunião</a>
+                </div>
+                <div class="footer-column">
+                    <h3>Contato</h3>
+                    <a href="https://wa.me/5511933158037">+55 (11) 93315-8037</a>
+                    <a href="mailto:contato@connectliberdade.com.br">contato@connectliberdade.com.br</a>
+                    <a href="https://share.google/H92tpMHsMtXWZGS6y">Av. da Liberdade, 91 - sala 144<br>Liberdade, São
+                        Paulo - SP</a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2026 - Connect Liberdade. Todos os direitos reservados. Desenvolvido por Isaura Verônica.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="salas.js"></script>
+</body>
+
+</html>
